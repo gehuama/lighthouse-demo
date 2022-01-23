@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lighthouse</title>
+    // DNS预解析  解析域名对应的IP地址
+    <link rel="dns-prefetch" href="//static/.360buying.com" />
+</head>
+<style>
+    @keyframes grow {
+        form {
+            /* height: 200px; */
+            transform: scaleY(0);
+        }
+        to{
+            /* height: 500px; */
+            transform: scaleY(2);
+        }
+    }
+    #avatar {
+        animation: grow 3s infinite;
+    }
+</style>
+<body>
+    <div>hello</div>
+    <img id ="avatar" style="width: 100px; height: 100px;" src="1.jpg" />
+    <img style="width: 100px; height: 100px;" src="2.jpg" />
+    <script src="perf.js"></sr>
+</body>
+</html>

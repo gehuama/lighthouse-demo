@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id= "root"></div>
+    <script>
+
+        // 强制布局
+        function reflow(){
+            const container = document.getElementById("root");
+            let div1 = document.createElement("div");
+            div1.innerHTML = "hello";
+            container.appendChild(div1);
+            console.log(container.offsetHeight);
+            let div2 = document.createElement("div");
+            div2.innerHTML = "world";
+            container.appendChild(div2);
+        }
+        reflow();
+    </script>
+</body>
+</html>

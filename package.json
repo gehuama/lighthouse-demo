@@ -1,0 +1,25 @@
+{
+  "name": "lighthouse-demo",
+  "version": "1.0.0",
+  "description": "开源的自动化化工具，用于改进网络应用的质量（https://www.npmjs.com/package/lighthouse）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gehuama/lighthouse-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gehuama/lighthouse-demo/issues"
+  },
+  "homepage": "https://github.com/gehuama/lighthouse-demo#readme",
+  "devDependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  }
+}
